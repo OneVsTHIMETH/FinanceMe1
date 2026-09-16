@@ -1576,8 +1576,7 @@ footer {
       <a href="#threeWheelCalculator">Three-Wheeler</a>
       <a href="#benefits">Advantages</a>
       <a href="#contact">Contact</a>
-      <a href="Employee.html">Employee</a>
-      <a href="Invoice.html">Invoice</a>
+
     </div>
 
     <div class="nav-actions">
@@ -1935,15 +1934,7 @@ footer {
   <a href="#contact" onclick="toggleMobileNav()">
     Contact
   </a>
-
-   <a href="Employee.html" onclick="toggleMobileNav()">
-    Employee
-  </a>
-
-  <a href="Invoice.html" onclick="toggleMobileNav()">
-    Invoice
-  </a>
-
+  
 </div>
 
 
@@ -2097,21 +2088,21 @@ footer {
                   onclick="selectBikeType('brandNew')">
             <i class="check">✓</i>
             <strong>Brand New Bike</strong>
-            <span>60% IRR 24% · 40% Loan 26% + PLL 28%</span>
+            <span>60% · 40%</span>
           </button>
 
           <button type="button" id="bikeTypeElectric" class="product-option"
                   onclick="selectBikeType('electric')">
             <i class="check">✓</i>
             <strong>Electric Brand New Bike</strong>
-            <span>60% IRR 24% · 40% Loan 26% + PLL 28%</span>
+            <span>60% · 40%</span>
           </button>
 
           <button type="button" id="bikeTypeRegistered" class="product-option"
                   onclick="selectBikeType('registered')">
             <i class="check">✓</i>
             <strong>Registered Bike</strong>
-            <span>Only 60% · IRR 35%</span>
+            <span>Only 60% ·</span>
           </button>
         </div>
 
@@ -2288,21 +2279,21 @@ footer {
                   onclick="selectTWType('brandNew')">
             <i class="check">✓</i>
             <strong>Brand New Three Wheeler</strong>
-            <span>60% IRR 22% · 40% Loan 23% + PLL 26%</span>
+            <span>60% · 40%</span>
           </button>
 
           <button type="button" id="twTypeElectric" class="product-option"
                   onclick="selectTWType('electric')">
             <i class="check">✓</i>
             <strong>Electric Brand New Three Wheeler</strong>
-            <span>60% IRR 23% · 40% Loan 23% + PLL 26%</span>
+            <span>60% · 40%/span>
           </button>
 
           <button type="button" id="twTypeRegistered" class="product-option"
                   onclick="selectTWType('registered')">
             <i class="check">✓</i>
             <strong>Registered Three Wheeler</strong>
-            <span>Only 60% · IRR 27%</span>
+            <span>Only 60%·</span>
           </button>
         </div>
 
@@ -3152,7 +3143,7 @@ let twType = "brandNew";
 
 const twRates = {
   brandNew: { ir60: 22, loan40: 23, pll40: 26 },
-  electric: { ir60: 23, loan40: 23, pll40: 26 },
+  electric: { ir60: 24, loan40: 24, pll40: 27 },
   registered: { ir60: 27 }
 };
 
